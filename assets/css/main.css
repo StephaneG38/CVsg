@@ -7,54 +7,19 @@ html {
 
 body {
     color: rgb(8, 8, 8);
-    background-color: rgb(165, 165, 236);
+    background-color:white;
+    font: 1em "Open Sans", sans-serif;
+
 }
 
-
-
-/* class couleur rouge pour raccourci dans HTML */
-.red{
-    color: red;
-}
-    
-/* fonction pour centrer le texte */
-.text-center{
-    text-align: center;
+nav {
+    font: 0.8em "Open Sans", sans-serif;
 }
 
-/* Je décide que TOUS mes liens ne soient pas surlignés */
-a {
-    text-decoration: none;
-    /* la couleur de tous les liens */
-    color:#6c316e;
+section {
+    background-color:white;
+    justify-content: start;
 }
-
- /* la couleur de tous les liens : a = les liens */
-a {
-    text-decoration: none;
-    color: brown;
-}
- 
-
-h1:hover {
-    color:black;
-}
-
-
-/* Je decide de la couleur des liens visités */
- a:visited {
-    color: rgb(6, 0, 128);
- }
-
- /* je choisi la couleur du lien lors du survol (hover) de la souris */
- a:hover {
-    background: orange;
-    color : black;
-    text-decoration: underline;
-
- }
-
-/* je crée des helpers  */
 
 .flex {
     display: flex;
@@ -64,20 +29,14 @@ h1:hover {
     flex-direction: column;
 }
 
-.center {
-    justify-content : center;
+.pad1 {
+    padding: 1em 1em 1em 1em;
 }
 
-.pad10 {
-    /* on passe une marge interieur */
-        padding: 10px;
 
-    }
-
-
-.maphoto{
+.maphoto {
     /* largeur */
-    width: 200px;
+    width: 150px;
     /* hauteur */
     height: 200px;
     /* bordurer */
@@ -85,8 +44,72 @@ h1:hover {
     /* marges exterieur */
     margin: 20px;
     /* on ajoute des bordures */
-    border-radius: 50%;
+    border-radius: 20%;
     /* on ajoute une ombre */
     box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
-    }
+}
 
+
+address {
+    background-color: rgb(74, 74, 79);
+    color: rgb(243, 236, 236);
+}
+
+.white {
+    color: white;
+}
+
+#bloc1 {
+    background-color:cadetblue;
+}
+
+#bloc2 {
+    background-color:rgb(157, 232, 235);
+    width: 600px;
+}
+
+.entreprises {
+    width: 250px;
+    margin: 0 10px 0 10px;
+}
+
+.fonctions {
+    width: 500px;
+    margin: 0 10px 0 10px;
+}
+
+#corpcv h2 {
+    padding: 10px;
+}
+
+#bloc2 h2 {
+    padding: 10px;
+    margin: 0 10px 0 10px;
+}
+
+#bloc2 p {
+    color: blue;
+    margin: 5px;
+}
+
+#bloc2 h3 {
+    margin: 5px;
+}
+
+#bloc1 p {
+    color: blue;
+    margin: 5px;
+}
+
+#bloc1 h3 {
+    margin: 5px;
+}
+
+h2{
+    margin: 10px 0 0 0;
+
+}
+
+#bandeau p{
+    margin: 2px;
+}
