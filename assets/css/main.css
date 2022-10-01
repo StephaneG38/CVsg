@@ -1,0 +1,92 @@
+/* Mes styles */
+
+/* on va rendre le scroll plus fluide */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: rgb(8, 8, 8);
+    background-color: rgb(165, 165, 236);
+}
+
+
+
+/* class couleur rouge pour raccourci dans HTML */
+.red{
+    color: red;
+}
+    
+/* fonction pour centrer le texte */
+.text-center{
+    text-align: center;
+}
+
+/* Je décide que TOUS mes liens ne soient pas surlignés */
+a {
+    text-decoration: none;
+    /* la couleur de tous les liens */
+    color:#6c316e;
+}
+
+ /* la couleur de tous les liens : a = les liens */
+a {
+    text-decoration: none;
+    color: brown;
+}
+ 
+
+h1:hover {
+    color:black;
+}
+
+
+/* Je decide de la couleur des liens visités */
+ a:visited {
+    color: rgb(6, 0, 128);
+ }
+
+ /* je choisi la couleur du lien lors du survol (hover) de la souris */
+ a:hover {
+    background: orange;
+    color : black;
+    text-decoration: underline;
+
+ }
+
+/* je crée des helpers  */
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content : center;
+}
+
+.pad10 {
+    /* on passe une marge interieur */
+        padding: 10px;
+
+    }
+
+
+.maphoto{
+    /* largeur */
+    width: 200px;
+    /* hauteur */
+    height: 200px;
+    /* bordurer */
+    border: 1px solid black;
+    /* marges exterieur */
+    margin: 20px;
+    /* on ajoute des bordures */
+    border-radius: 50%;
+    /* on ajoute une ombre */
+    box-shadow: 2px 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+

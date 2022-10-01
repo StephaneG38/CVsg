@@ -1,0 +1,147 @@
+<!DOCTYPE html>i
+
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ma première page HTML">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- on integre les fonts icone du site font-awesome cdn en copiant le premier lien proposé- les cdn sont des serveurs de contenu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>CV Stéphane</title>
+</head>
+
+
+<body>
+
+
+    <header>
+        <nav>
+            <a href="portfolio.html">Découvrez mes réalisations</a>
+            <a href="contact/contact.html">Contactez moi</a>
+        </nav>
+
+        <div class="flex">
+            <img src="assets/img/SG.jpg" alt="Photo du profil de Steph" class="maphoto" />
+
+            <div class="flex column pad10">
+                <h1>Stéphane GUEGUEN - Développeur web</h1>
+                <p>Je vous propose de mettre mes compétences à votre service !</p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="flex">
+
+        <div left class="flex column pad10">
+            <p>
+                test colonne 1
+            </p>
+        </div>
+
+
+        <div right class="flex column pad10">
+            <p>
+                test colonne 2
+            </p>
+
+        </div>
+
+
+
+
+    </section>
+
+    <main>
+
+
+        <br>
+
+
+
+        <h2>Coordonnées</h2>
+        <address>
+            <i class="fa-sharp fa-solid fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:sgueguen38@gmail.com">sgueguen38@gmail.com </a>
+            <br>
+            <i class="fa-sharp fa-solid fa-phone" aria-hidden="true"></i>
+            <a href="tel:+33781711065">+33(0)7-81-71-10-65</a>
+        </address>
+
+        <section aria-labelledby="exppro">
+            <h2 id="exppro">Expériences professionnelles</h2>
+
+
+            <ul>
+                <li>
+
+                    <h3>Conseil en formation <span class="red">
+                            <a href="https://www.cciformation-grenoble.fr/" target="_blank"> CCI Grenoble </a>
+                        </span>
+
+                    </h3>
+
+
+                </li>
+
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, dignissimos quasi, sunt quam
+                    sapiente praesentium aspernatur ipsa nihil illum incidunt repellat. Pariatur laboriosam veniam eius
+                    sint error officia? Animi consequatur ipsum similique nulla facilis cumque et harum, ad, adipisci,
+                    vero quae nam atque eius? Ex ut nostrum enim debitis, hic rerum illum asperiores perspiciatis
+                    nesciunt porro dolorum cumque quas fugit numquam reiciendis nisi ipsum facere architecto eligendi.
+                    Totam, laboriosam obcaecati neque voluptates nostrum a, distinctio voluptas expedita quis ea ad?
+                </li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloribus iusto soluta sit porro,
+                    harum sed nesciunt sequi impedit expedita dolor quis praesentium, laudantium sunt repellendus,
+                    quisquam eum architecto consequatur. Nihil aliquam cum ex voluptatibus et tenetur, sunt, id
+                    voluptatum velit ad, quidem dolores impedit voluptate fugiat repellendus laudantium quia?</li>
+                <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae est sint quidem dolor ad quo illo.
+                    Inventore architecto reprehenderit sapiente!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, maiores magni cumque maxime
+                    cupiditate modi iste sit, fuga libero repellendus quasi eius delectus natus recusandae deleniti,
+                    sint nesciunt nulla illo veritatis impedit blanditiis provident tempore repudiandae hic. Itaque,
+                    velit voluptas.</li>
+            </ul>
+            <br>
+            <br>
+        </section>
+
+        <section>
+            <h2 id="form">Formations</h2>
+            <ul>
+                <li>Formation Développeur Web</li>
+                <br>
+                <li>Spécialisation Marketing</li>
+                <br>
+                <li>Ecole de commerce</li>
+
+            </ul>
+        </section>
+
+
+        <!-- Lien vers notre page contact-->
+        <a href="contact/contact.html">Contactez moi</a>
+
+        <!--lien vers les sections de notre page il faut bien mettre #  et Title permet une info bulle -->
+        <p class="red"> Accés rapide </p>
+        <a href="#exppro" title="Accés directe à l'expèrience pro">Expèriences professionnelles</a>
+        <br>
+        <a href="#form">Formation</a>
+
+
+    </main>
+
+    <!-- notre pied de page (copyright, liens utiles, newletter,...)-->
+    <footer>
+        Mon footer est un Copyright
+    </footer>
+
+
+</body>
+
+</html>

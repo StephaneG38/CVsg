@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--On va faire le lien avec le fichier CSS on l'appel "main" car on veux ici 1 fichier "principal" mais on peux également créer des fichiers css pour chaque fichier html--> 
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>
+        Contactez moi
+    </h1>
+    <!-- J'insère un formulaire - en mettant .. je reviens sur le répertoire parent en mettant ..-->
+    <!--l'attribut action va chercher une page de logique de programmation afin d'échanger avec le back tandis que l'attribut method nous permet soit de récupérer des informations avec GET soit en envoyer avec POST-->
+        <form action="../assets/form/send.php" method="post">
+            <!-- la balise label indique à l'utilisateur quelle est l'action à effectuer-->
+            
+            <label for="name">
+                veuillez entrer votre nom :
+            </label>
+      
+        <!-- la balise input nous permet d'afficher un champ de saisie afin de dialoguer avec l'utilisateur-->
+        <input type="text"
+               name="name"
+               id="name">
+            <label for="email">
+                veuillez rentrer votre courriel :
+            </label>
+        <!--l'attribut REQUIRED fait en sorte que le navigateur n'enverra JAMAIS les données du formulaire si ce champ précis est vide-->   
+        <input type="email"
+               name="email"
+               id="email"
+               required>
+        <!-- on envoie les données du formulaire-->
+        <input type="submit" value="envoyer">
+
+        </form>
+    
+    <!--Lien vers une page de notre site attention il faut revenir à la racine avec les ..-->
+    <a href="../index2.html">Retour à l'accueil</a>
+    
+</body>
+</html>
